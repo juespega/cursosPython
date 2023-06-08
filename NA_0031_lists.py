@@ -136,7 +136,7 @@
 # print(my_list)
 # my_list[0], my_list[4] = my_list[4], my_list[0]
 # my_list[1], my_list[3] = my_list[3], my_list[1]
- 
+
 # print(my_list)
 
 # print("Ahora con un bucle for")
@@ -145,7 +145,7 @@
 # print(my_list)
 # for i in range(length // 2):
 #     my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
- 
+
 # print(my_list)
 
 
@@ -154,7 +154,7 @@
 
 # my_list = [8, 10, 6, 2, 4]  # lista a ordenar
 # print(my_list)
- 
+
 # for i in range(len(my_list) - 1):  # necesitamos (5 - 1) comparaciones
 #     if my_list[i] > my_list[i + 1]:  # compara elementos adyacentes
 #         my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]  # Si terminamos aquí, tenemos que intercambiar elementos.
@@ -165,14 +165,13 @@
 # # Ordenando una lista
 # my_list = [8, 10, 6, 2, 4]  # lista a ordenar
 # swapped = True  # Lo necesitamos verdadero (True) para ingresar al bucle while.
- 
+
 # while swapped:
 #     swapped = False  # no hay intercambios hasta ahora
 #     for i in range(len(my_list) - 1):
 #         if my_list[i] > my_list[i + 1]:
 #             swapped = True  # ¡ocurrió el intercambio!
 #             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
-
 
 
 # # El ordenamiento burbuja – versión interactiva
@@ -200,18 +199,18 @@
 # my_list.sort()
 # print(my_list)
 
-# # También hay un método de lista llamado reverse(), 
+# # También hay un método de lista llamado reverse(),
 # # que puedes usar para invertir la lista, por ejemplo:
 
 # lst = [5, 3, 1, 2, 4]
 # print(lst)
- 
+
 # lst.reverse()
 # print(lst)  # output: [4, 2, 1, 3, 5]
 
 # lst = ["D", "F", "A", "Z"]
 # lst.sort()
- 
+
 # print(lst)
 
 # # Copiando una lista de la lista
@@ -221,7 +220,7 @@
 # list_1[0] = 2
 # print(list_2)
 
-# # Una rebanada es un elemento de la sintaxis de Python que permite hacer una copia nueva de una lista, 
+# # Una rebanada es un elemento de la sintaxis de Python que permite hacer una copia nueva de una lista,
 # # o partes de una lista.
 # # En realidad, copia el contenido de la lista, no el nombre de la lista.
 # # Esto es exactamente lo que necesitas. Echa un vistazo al fragmento de código a continuación:
@@ -245,8 +244,8 @@
 # Rebanadas - indices negativos
 
 # my_list[start:end]
-#start es el índice del primer elemento incluido en la rebanada.
-#end es el índice del primer elemento no incluido en la rebanada.
+# start es el índice del primer elemento incluido en la rebanada.
+# end es el índice del primer elemento no incluido en la rebanada.
 
 # my_list = [10, 8, 6, 4, 2]
 # new_list = my_list[1:-1]
@@ -261,7 +260,7 @@
 
 # Más sobre la instrucción del
 
-#La instrucción del descrita anteriormente puede eliminar más de un elemento de la lista a la vez 
+# La instrucción del descrita anteriormente puede eliminar más de un elemento de la lista a la vez
 # - también puede eliminar rebanadas:
 
 # my_list = [10, 8, 6, 4, 2]
@@ -274,6 +273,6 @@
 # del my_list[:]
 # print(my_list)
 
-my_list = [10, 8, 6, 4, 2]
+my_list = [10, 8, 6, 4, 2, 5]
 del my_list
 print(my_list)
