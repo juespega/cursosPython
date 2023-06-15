@@ -17,6 +17,7 @@ def create_phone_number(numbers):
     second_part = ''.join(map(str, numbers[6:]))
 
     phone_number = "({}) {}-{}".format(indicative, first_part, second_part)
+    # phone_number = f"({indicative}) {first_part}-{second_part}"
 
     return phone_number
 
